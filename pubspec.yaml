@@ -1,0 +1,56 @@
+name: dental_clinic_app
+description: تطبيق إدارة عيادة أسنان متكامل
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # قاعدة البيانات المحلية
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  
+  # إدارة الحالة
+  provider: ^6.1.5+1
+
+  flutter_localizations: # للدعم المحلي
+    sdk: flutter
+  
+  # واجهة المستخدم
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.0.0
+  flutter_svg: ^2.2.3
+  
+  # التاريخ والوقت
+  intl: ^0.20.2
+  table_calendar: ^3.2.0
+  
+  # أدوات مساعدة
+  shared_preferences: ^2.5.4
+  uuid: ^4.5.2
+  
+  # PDF والطباعة
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  
+  # الرسوم البيانية
+  fl_chart: ^1.1.1
+  flutter_localization: ^0.3.3
+  html: ^0.15.6
+  file: ^7.0.1
+  flutter_local_notifications: ^20.0.0
+  timezone: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
